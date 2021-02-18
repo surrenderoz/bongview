@@ -223,7 +223,6 @@ export default {
         .catch(error => {
           console.log({
             error,
-            'error status': error.response.status,
             'error response': error.response
           })
           const ozz = document.getElementById('formerros')
